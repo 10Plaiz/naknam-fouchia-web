@@ -38,6 +38,11 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+#footer-list {
+    list-style-type: underline;
+    color: #000;
+}
+
 @media (max-width: 768px) {
     .custom-overlay-text {
         font-size: 18px;
