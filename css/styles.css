@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
+
 .font-zen-old-mincho {
     font-family: 'Zen Old Mincho', serif;
 }
-
 
 .font-inter {
     font-family: 'Inter', sans-serif;
@@ -14,14 +14,18 @@
     font-family: 'Sunflower', sans-serif;
 }
 
-/* Show dropdown on hover */
-.nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
 /* Prevent dropdown from disappearing when interacting with it */
 .nav-item.dropdown .dropdown-menu {
     margin-top: 0;
+}
+
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+    }
+    
+.dropdown-hover>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+pointer-events: none;
 }
 
 .overlay-container {
