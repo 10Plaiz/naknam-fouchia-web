@@ -6,7 +6,6 @@
     font-family: 'Zen Old Mincho', serif;
 }
 
-
 .font-inter {
     font-family: 'Inter', sans-serif;
 }
@@ -15,14 +14,18 @@
     font-family: 'Sunflower', sans-serif;
 }
 
-/* Show dropdown on hover */
-.nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
 /* Prevent dropdown from disappearing when interacting with it */
 .nav-item.dropdown .dropdown-menu {
     margin-top: 0;
+}
+
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+    }
+    
+.dropdown-hover>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+pointer-events: none;
 }
 
 .overlay-container {
