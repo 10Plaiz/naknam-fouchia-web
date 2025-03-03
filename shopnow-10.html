@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>MR ZELDRICHE</title>
+    <link rel="stylesheet" href="/css/shopnow.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -602,283 +603,82 @@
         </div>
     </nav>
 
-
-    <!-- Content -->
-    <div class="container-fluid">
+    <!-- Main Content -->
+    <div class="container mt-5" style="margin-bottom: 30px;">
         <div class="row">
-            <div class="col-6 p-0 position-relative">
-                <img src="img/zeldrix-main.png" class="img-fluid" style="width: 100%; height: 500px; object-fit: cover;" alt="Responsive image">
-                <div class="position-absolute" style="bottom: 20px; left: 20px;">
-                    <h2 class="font-sunflower" style="color: white;">SEASONAL SHIFT</h2>
-                    <h6 class="font-zen-old-mincho" style="color: white;">Menswear classics and new trends to see winter out in style</h6>
-                    <a href="shopnow.html" class="btn btn-light" style="width: 300px;">Shop Now</a>                
+            <div class="col-md-6">
+                <img src="img/shop-now/shopnow10.avif" alt="Shop Now Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>BURBERRY</h2>
+                <p>Cotton-Gabardine Trench Coat - A timeless outerwear icon, Burberry’s trench coat is crafted from durable cotton gabardine and features classic double-breasted styling. With its impeccable tailoring and signature details, this piece is an investment in British heritage craftsmanship.</p>
+                <p>£1,914</p>
+                <div class="buttons mt-3">
+                    <button class="btn btn-primary" onclick="addToCart()">Add to Cart</button>
+                    <button class="btn btn-secondary" onclick="addToWishlist()">Add to Wishlist</button>
                 </div>
-            </div>
-            <div class="col-6 p-0">
-                <img src="img/luigi-main.png" class="img-fluid" style="width: 100%; height: 500px; object-fit: cover;" alt="Responsive image">
-            </div>
-        </div>
-    </div>
-
-    <!-- New Section: What's New Today -->
-    <div class="container-fluid my-5" style="margin-bottom: 2px !important;">
-        <div class="row align-items-center">
-            <div class="col-md-4 d-flex flex-column align-items-left" style="padding-left: 5%;">
-                <h3 class="font-sunflower">What's New Today</h3>
-                <h1 class="font-zen-old-mincho" style="font-size: 100px;">691</h1>
-                <h6 class="font-sunflower">Discover what just landed at MR ZELDRICHE</h6>
-            </div>
-            <div class="col-md-8 align-items-center" style="padding-right: 4%; text-decoration: none;">
-                <div id="newTodayCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/1.avif" class="d-block w-100" alt="New Item 1">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Veloura</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/2.avif" class="d-block w-100" alt="New Item 2">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Aurum</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/3.avif" class="d-block w-100" alt="New Item 3">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Celestine</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/4.avif" class="d-block w-100" alt="New Item 4">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Élan</p>
-                                    </a>
-                                </div>
-                            </div>
+                <div class="accordion mt-4" id="productAccordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Editors Notes
+                                </button>
+                            </h2>
                         </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/5.avif" class="d-block w-100" alt="New Item 5">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Nocturne</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/6.avif" class="d-block w-100" alt="New Item 6">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Regalia</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/7.avif" class="d-block w-100" alt="New Item 7">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Vermeer</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/8.avif" class="d-block w-100" alt="New Item 8">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Opaline</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/9.avif" class="d-block w-100" alt="New Item 9">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Marquise</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/10.avif" class="d-block w-100" alt="New Item 10">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Éclipse</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/11.avif" class="d-block w-100" alt="New Item 11">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Lustre</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/whats-new/12.avif" class="d-block w-100" alt="New Item 12">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Sovereign</p>
-                                    </a>
-                                </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#productAccordion">
+                            <div class="card-body">
+                                A staple for every wardrobe, this trench coat is as stylish as it is functional, perfect for all seasons.
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#newTodayCarousel" role="button" data-slide="prev" style="width: 5%;">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#newTodayCarousel" role="button" data-slide="next" style="width: 5%;">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Divide it -->
-    <div style="height: 1px; background-color: #c7c7c7; width: 90%; margin-bottom: 30px;" class="mx-auto"></div>
-
-    <!-- Zeldrix & Luigi Section -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="img/Zeldrix.jpg" class="img-fluid" alt="Zeldrix" style="margin-bottom: 10px;">
-                <h6 class="font-sunflower" style="margin: 0;"><b>MARL ZELDRIX CALILIW: THE ESTETIK COLLECTION</b></h6>
-                <p class="font-zen-old-mincho"><a href="#" style="text-decoration: none; color: #000;"><u>Shop Now</u></a></p>
-            </div>
-            <div class="col-md-6">
-                <img src="img/Luigi.jpg" class="img-fluid" alt="Luigi" style="margin-bottom: 10px;">
-                <h6 class="font-sunflower" style="margin: 0;"><b>JON LUIGI ARIOLA: COMFORT IS KEY COLLECTION</b></h6>
-                <p class="font-zen-old-mincho"><a href="#" style="text-decoration: none; color: #000;"><u>Shop Now</u></a></p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Divide it -->
-    <div style="height: 1px; background-color: #c7c7c7; width: 90%;" class="mx-auto"></div>
-
-    <!-- New Section: Run The streets -->
-    <div class="container-fluid my-5" style="margin-bottom: 2px !important;">
-        <div class="row align-items-center">
-            <div class="col-md-8 align-items-center" style="text-decoration: none; padding-left: 5%;">
-                <div id="runTheStreetsCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts1.avif" class="d-block w-100" alt="Run The Streets 1">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Cassiar</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts2.avif" class="d-block w-100" alt="Run The Streets 2">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Orvelle</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts3.avif" class="d-block w-100" alt="Run The Streets 3">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Zephora</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts4.avif" class="d-block w-100" alt="Run The Streets 4">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Valienne</p>
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Size & Fit
+                                </button>
+                            </h2>
                         </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts5.avif" class="d-block w-100" alt="Run The Streets 5">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Montereau</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts6.avif" class="d-block w-100" alt="Run The Streets 6">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Seraphine</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts7.avif" class="d-block w-100" alt="Run The Streets 7">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Lucentia</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts8.avif" class="d-block w-100" alt="Run The Streets 8">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Rosavelle</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts9.avif" class="d-block w-100" alt="Run The Streets 9">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Calivière</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts10.avif" class="d-block w-100" alt="Run The Streets 10">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Amorien</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts11.avif" class="d-block w-100" alt="Run The Streets 11">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Védaire</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="#">
-                                        <img src="img/run-the-streets/rts12.avif" class="d-block w-100" alt="Run The Streets 12">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Solenne</p>
-                                    </a>
-                                </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#productAccordion">
+                            <div class="card-body">
+                                Regular fit; take your normal size or size up for layering.
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#runTheStreetsCarousel" role="button" data-slide="prev" style="width: 5%;">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#runTheStreetsCarousel" role="button" data-slide="next" style="width: 5%;">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Details & Care
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#productAccordion">
+                            <div class="card-body">
+                                100% cotton; specialist dry clean only. Made in the UK.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Delivery and Returns
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#productAccordion">
+                            <div class="card-body">
+                                Fast shipping available worldwide. Free returns within 30 days
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 d-flex flex-column align-items-end text-right" style="padding-right: 8%;">
-                <h1 class="font-sunflower">Run The Streets</h1>
-                <h5 class="font-sunflower">Absolute cult classics.</h5>
-            </div>
         </div>
     </div>
 
-    <!-- Divide it -->
-    <div style="height: 1px; background-color: #c7c7c7; width: 90%; margin-bottom: 30px" class="mx-auto"></div>
-
-    <!-- News / Journal Part -->
-    <div class="container" style="margin-bottom: 35px;">
-        <div class="row">
-            <img src="img/ytykm.png" class="img-fluid" alt="You Think You Know Me">
-            <div class="col-xl-7">
-                <h6 class="font-sunflower" style="margin-top: 20px; margin-bottom: 0;"><b>The Journals</b></h6>
-                <h2 class="font-zen-old-mincho" style="margin-bottom: 0;">Justine Leee Isn't Who You Think He Is</h2>
-            </div>
-            <div class="col-xl-5 d-flex flex-column justify-content-center align-items-lefttext-left">
-                <p class="font-zen-old-mincho" style="margin-bottom: 0; margin-top: 20px;">He isn't just an internet persona. He's a mystery wrapped in speculation, hiding something far bigger than anyone realizes.</p>
-                <p class="font-zen-old-mincho" style="margin-bottom: 0;"><a href="#" style="font-size: small; text-decoration: none; color: #000;"><u>Read more</u></a></p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Divide it -->
-    <div style="height: 1px; background-color: #c7c7c7; width: 90%; margin-bottom: 30px" class="mx-auto"></div>
 
     <!-- Footer 1 -->
     <footer class="bg-light py-4">
@@ -898,7 +698,7 @@
                         <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="#">Discover MR ZELDRICHE</a></li>
                         <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="#">Health in Mind</a></li>
                         <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="#">Our Apps</a></li>
-                        <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="https://www.ynap.com/wp-content/uploads/2024/09/YNAP-Modern-Slavery-Statement-FY-2024.pdf" target="_blank">Modern Slavery Statement</a></li>
+                        <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="#">Modern Slavery Statement</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">

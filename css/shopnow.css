@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+}
+.image-column img {
+    width: 100%;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons button {
+    margin-right: 10px;
+}
