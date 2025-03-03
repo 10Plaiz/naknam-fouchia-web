@@ -15,8 +15,13 @@
     font-family: 'Sunflower', sans-serif;
 }
 
-.navbar-nav .dropdown:hover .dropdown-menu {
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
     display: block;
+}
+
+/* Prevent dropdown from disappearing when interacting with it */
+.nav-item.dropdown .dropdown-menu {
     margin-top: 0;
 }
 
