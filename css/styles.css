@@ -42,14 +42,34 @@ pointer-events: none;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 768px) {
-    .custom-overlay-text {
-        font-size: 18px;
-    }
+body {
+    overflow-x: hidden;
 }
 
-@media (max-width: 576px) {
-    .custom-overlay-text {
-        font-size: 14px;
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: large;
+    }
+    .carousel-item img {
+        height: auto;
+    }
+    .font-zen-old-mincho {
+        font-size: 1.5rem;
+    }
+    .font-sunflower {
+        font-size: 1rem;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .dropdown-menu {
+        text-align: left;
+    }
+    .caption {
+        font-size: 0.8rem;
+    }
+    .carousel-item .col-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }

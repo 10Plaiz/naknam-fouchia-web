@@ -43,4 +43,4 @@ Etc.
 written at the bottom of the page. 
 9. You may use a web authoring tool like dreamweaver cc but not a website 
 template builder(weebly or related). **[N/A]**
-10. The web site should be tested using Google Chrome. 
+10. The web site should be tested using Google Chrome.
