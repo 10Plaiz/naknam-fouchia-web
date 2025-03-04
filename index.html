@@ -26,6 +26,19 @@
         .font-zen-old-mincho {
             font-family: 'Zen Old Mincho', serif;
         }
+
+        @keyframes colorChange {
+            0% { color: red; }
+            25% { color: yellow; }
+            50% { color: blue; }
+            100% { color: green; }
+        }
+
+        .animated-text {
+            animation-name: colorChange;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
     </style>
 </head>
 <body>
@@ -453,8 +466,8 @@
             <div class="col-12 col-md-6 p-0 position-relative">
                 <img src="img/zeldrixnew.png" class="img-fluid" style="width: 100%; height: 500px; object-fit: cover;" alt="Responsive image">
                 <div class="position-absolute" style="bottom: 20px; left: 20px;">
-                    <h2 class="font-sunflower text-white">SEASONAL SHIFT</h2>
-                    <h6 class="font-zen-old-mincho text-white">Menswear classics and new trends to see winter out in style</h6>
+                    <h2 class="font-sunflower" style="color: white;">SEASONAL SHIFT</h2>
+                    <h6 class="font-zen-old-mincho" style="color: white;">Menswear classics and new trends to see winter out in style</h6>
                     <a href="shopnow.html" class="btn btn-light btn-block" style="max-width: 300px;">Shop Now</a>
                 </div>
             </div>
@@ -469,7 +482,7 @@
         <div class="row align-items-center">
             <div class="col-md-4 d-flex flex-column align-items-center" style="margin-bottom: 20px;">
                 <h3 class="font-sunflower">What's New Today</h3>
-                <h1 class="font-zen-old-mincho" style="font-size: 100px;">691</h1>
+                <h1 class="font-zen-old-mincho animated-text" style="font-size: 100px;">691</h1>
                 <h6 class="font-sunflower">Discover what just landed at MR ZELDRICHE</h6>
             </div>
             <div class="col-md-8 align-items-center">
