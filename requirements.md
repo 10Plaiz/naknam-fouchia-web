@@ -12,27 +12,27 @@ the website and mention tools you used.
 A. BASIC Requirements:
     - Links, Lists, HTML layouts, etc. **[CHECK]**
     - Image Map **[CHECK]**
-    - Tables 
-    - Forms **Half Check**
-    - Animated Images 
+    - Tables **[CHECK]**
+    - Forms **[CHECK]**
+    - Animated Images **[CHECK]**
     - Sliding Window / Images **[CHECK(USED-CAROUSEL)]**
     - Drop down (navigation bar) menu **[CHECK]**
-    - Pop up image (lightbox) Replace Sale and Put Gallery with lightbox
+    - Pop up image (lightbox) Replace Sale and Put Gallery with lightbox **[CHECK]**
 
 ### CSS3 features 
 B. CSS Requirements
-    - CSS float 
-    - CSS Opacity 
+    - CSS float **[CHECK]**
+    - CSS Opacity **[CHECK]**
     - CSS Navigation Bar **[CHECK]**
     - CSS Dropdowns **[CHECK]**
-    - CSS Image Gallery 
-    - CSS Attr Selectors 
-    - CSS Forms **Half Check**
+    - CSS Image Gallery **[CHECK]**
+    - CSS Attr Selectors **[CHECK]**
+    - CSS Forms **[CHECK]**
     - CSS Rounded Corners **[CHECK]**
     - CSS Border Images **[CHECK]**
     - CSS Multiple Backgrounds 
-    - CSS Colors (rgba) 
-    - CSS Gradients 
+    - CSS Colors (rgba) **[CHECK]**
+    - CSS Gradients **[CHECK]**
     - CSS Shadow effects **[CHECK]**
 Etc. 
 
