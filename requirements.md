@@ -17,7 +17,7 @@ A. BASIC Requirements:
     - Animated Images 
     - Sliding Window / Images **[CHECK(USED-CAROUSEL)]**
     - Drop down (navigation bar) menu **[CHECK]**
-    - Pop up image (lightbox) 
+    - Pop up image (lightbox) Replace Sale and Put Gallery with lightbox
 
 ### CSS3 features 
 B. CSS Requirements
