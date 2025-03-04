@@ -29,6 +29,9 @@
     <div style="height: 5px; background-color: #000;"></div>
     <!-- Second part: Navigation with different kinds of clothes -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center" style="border-bottom: 1px solid rgb(230, 225, 225);">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav font-inter">
                 <!-- WHAT'S NEW -->
@@ -37,12 +40,17 @@
                         What's New
                     </a>
                     <div class="dropdown-menu w-100 mt-0" aria-labelledby="whatsNewDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-                        <div class="container-fluid">
+                        <div class="container">
                             <div class="row my-4">
                                 <!-- Column 1: Shop What's New -->
-                                <div class="col-md-4 mb-3 mb-md-0" style="padding-left: 120px;">
+                                <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold"> What's New</p>
+                                        <div class="pt-2">
+                                            <p>Hundreds of Mr.Zeldriche’s latest arrivals and sneaker drops all in one place. Check back here every week to see what’s just landed, discover our exclusive releases or browse our new designers. Sign up to stay informed.</p>
+                                        </div>
+                                        <div class="pt-2">
+                                            <a href="whatsnew.html" class="text-dark">What's New This Month?</a>
                                         <div class="pt-2">
                                             <ul class="list-unstyled">
                                                 <li><a href="#" class="text-dark">New This Week</a></li>
@@ -54,17 +62,18 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                                 <!-- Column 2: The Latest From The Journal -->
                                 <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">The Latest From The Journal</p>
-                                        <a href="#" class="text-dark">
+                                        <a href="latestjournal1.html" class="text-dark">
                                             <div class="row mb-4 border-bottom pb-2">
                                                 <div class="col-3">
                                                     <img src="img/latest1.png" class="img-fluid shadow-1-strong rounded" alt="Journal Item 1" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>YUAN HAIRCUT</strong></p>
+                                                    <p class="mb-2"><strong>Why the Met's Upcoming Exhibition Celebrating Black Dandayism is so Vital</strong></p>
                                                 </div>
                                             </div>
                                         </a>
@@ -74,7 +83,7 @@
                                                     <img src="img/latest2.png" class="img-fluid shadow-1-strong rounded" alt="Journal Item 2" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>C C C 2!!!</strong></p>
+                                                    <p class="mb-2"><strong>Get Ahead Of The Curve With This Year's Hottest Interior Trend</strong></p>
                                                 </div>
                                             </div>
                                         </a>
@@ -84,7 +93,7 @@
                                                     <img src="img/latest3.png" class="img-fluid shadow-1-strong rounded" alt="Journal Item 3" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>ZELDRIX</strong></p>
+                                                    <p class="mb-2"><strong>Everything You Need To Know About Sunglasses</strong></p>
                                                 </div>
                                             </div>
                                         </a>
@@ -109,17 +118,17 @@
                         What To Wear
                     </a>
                     <div class="dropdown-menu w-100 mt-0" aria-labelledby="whatToWearDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-                        <div class="container-fluid">
+                        <div class="container">
                             <div class="row my-4">
                                 <!-- Column 1: Edits -->
-                                <div class="col-md-4 mb-3 mb-md-0" style="padding-left: 120px;">
+                                <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Edits</p>
                                         <ul class="list-unstyled">
-                                            <li><a href="wardrobe.html" class="text-dark">Wardrobe Essentials</a></li>
-                                            <li><a href="#" class="text-dark">Exclusives</a></li>
-                                            <li><a href="#" class="text-dark">Trending Now</a></li>
-                                            <li><a href="#" class="text-dark">Quiet Luxury</a></li>
+                                            <li><a href="what-to-wear-html/wardrobe.html" class="text-dark">Wardrobe Essentials</a></li>
+                                            <li><a href="what-to-wear-html/exclusives.html" class="text-dark">Exclusives</a></li>
+                                            <li><a href="what-to-wear-html/trending.html" class="text-dark">Trending Now</a></li>
+                                            <li><a href="what-to-wear-html/quietluxury.html" class="text-dark">Quiet Luxury</a></li>
                                             <li><a href="#" class="text-dark">Run The Streets</a></li>
                                         </ul>
                                     </div>
@@ -138,10 +147,12 @@
                                     </div>
                                 </div>
                                 <!-- Column 3: Images with Captions -->
-                                <div class="col-md-4" style="padding-right: 120px;">
+                                <div class="col-md-4">
                                     <div class="row">
                                         <div class="col-6">
-                                            <img src="img/what-to-wear1.png" class="img-fluid shadow-1-strong rounded mb-2" alt="New Item 9" />
+                                            <a href="journal/trending.html">
+                                                <img src="img/what-to-wear1.png" class="img-fluid shadow-1-strong rounded mb-2" alt="New Item 9" />
+                                            </a>
                                             <p class="text-center font-weight-bold" style="margin-bottom: 0;">TRENDING SNEAKERS & MORE</p>
                                         </div>
                                         <div class="col-6">
@@ -161,10 +172,10 @@
                     <a class="nav-link font-inter" href="#" id="designersDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Designers
                     </a>
-                    <div class="dropdown-menu w-100 mt-0" aria-labelledby="designersDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0; padding-left: 150px;">
-                        <div class="container-fluid">
+                    <div class="dropdown-menu w-100 mt-0" aria-labelledby="designersDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
+                        <div class="container">
                             <div class="row my-4">
-                                <!-- Luxury Streetwear -->
+                                <!-- Column 1: Luxury Streetwear -->
                                 <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Luxury Streetwear</p>
@@ -200,8 +211,8 @@
                                         </a>
                                     </div>
                                 </div>
-                                <!-- Iconic Designers -->
-                                <div class="col-md-4 mb-3 mb-md-0" style="padding-left: 60px;">
+                                <!-- Column 2: Iconic Designers -->
+                                <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="list-group list-group-flush">
                                         <p class="mb-0 list-group-item text-uppercase font-weight-bold">Iconic Designers</p>
                                         <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Gucci</a>
@@ -214,8 +225,8 @@
                                         <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Hermès</a>
                                     </div>
                                 </div>
-                                <!-- Style Aesthetic -->
-                                <div class="col-md-4" style="padding-left: 120px;">
+                                <!-- Col 3: Style Aesthetic -->
+                                <div class="col-md-4">
                                     <div class="list-group list-group-flush">
                                         <p class="mb-0 list-group-item text-uppercase font-weight-bold">Style Aesthetic</p>
                                         <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-caret-right pe-2"></i>Minimalist - The Row</a>
@@ -240,8 +251,8 @@
                         Top
                     </a>
                     <div class="dropdown-menu w-100 mt-0" aria-labelledby="whatToWearDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-                        <div class="container-fluid">
-                            <div class="row my-4 justify-content-center" style="padding-left: 230px;">
+                        <div class="container">
+                            <div class="row my-4 justify-content-center">
                                 <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Shirts</p>
@@ -310,8 +321,8 @@
                         Bottom
                     </a>
                     <div class="dropdown-menu w-100 mt-0" aria-labelledby="whatToWearDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-                        <div class="container-fluid">
-                            <div class="row my-4 justify-content-center" style="padding-left: 230px;">
+                        <div class="container">
+                            <div class="row my-4 justify-content-center">
                                 <div class="col-md-4">
                                     <div class="pt-2">
                                         <img src="img/top1.jpg" class="img-fluid shadow-1-strong rounded mb-2" style="height: 350px; display: block; margin-left: auto; margin-right: auto;" alt="Featured Image" />
@@ -380,10 +391,10 @@
                         Accessories
                     </a>
                     <div class="dropdown-menu w-100 mt-0" aria-labelledby="accessoriesDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-                        <div class="container-fluid">
+                        <div class="container h-100 d-flex justify-content-center align-items-center">
                             <div class="row my-4 justify-content-center">
                                 <!-- Column 1: Shop By Accessory -->
-                                <div class="col-md-4 mb-3 mb-md-0" style="padding-left: 230px;">
+                                <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Shop By Accessory</p>
                                         <ul class="list-unstyled">
@@ -396,7 +407,7 @@
                                     </div>
                                 </div>
                                 <!-- Column 2: Discover More -->
-                                <div class="col-md-4 mb-3 mb-md-0" style="padding-left: 200px;">
+                                <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Discover More</p>
                                         <ul class="list-unstyled">
@@ -409,7 +420,7 @@
                                     </div>
                                 </div>
                                 <!-- Column 3: Image with Caption -->
-                                <div class="col-md-4" style="padding-left: 100px;">
+                                <div class="col-md-4">
                                     <div class="pt-2">
                                         <img src="img/accessories1.jpg" class="img-fluid shadow-1-strong rounded mb-2" alt="Featured Accessory" />
                                         <p class="text-center font-weight-bold" style="margin-bottom: 0;">Featured Accessory</p>
@@ -427,10 +438,10 @@
                         Shoes
                     </a>
                     <div class="dropdown-menu w-100 mt-0" aria-labelledby="shoesDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-                        <div class="container-fluid">
+                        <div class="container h-100 d-flex justify-content-center align-items-center">
                             <div class="row my-4 justify-content-center">
                                 <!-- Column 1: Shop Sneakers -->
-                                <div class="col-md-3 mb-3 mb-md-0" style="padding-left: 200px;">
+                                <div class="col-md-3 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Shop Sneakers</p>
                                         <ul class="list-unstyled">
@@ -448,7 +459,7 @@
                                     </div>
                                 </div>
                                 <!-- Column 2: Shop By Style -->
-                                <div class="col-md-3 mb-3 mb-md-0" style="padding-left: 100px;">
+                                <div class="col-md-3 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Shop By Style</p>
                                         <ul class="list-unstyled">
@@ -465,7 +476,7 @@
                                     </div>
                                 </div>
                                 <!-- Column 3: Trending Designers -->
-                                <div class="col-md-3 mb-3 mb-md-0" style="padding-left: 50px;">
+                                <div class="col-md-3 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Trending Designers</p>
                                         <ul class="list-unstyled">
@@ -501,10 +512,10 @@
                         Sport
                     </a>
                     <div class="dropdown-menu w-100 mt-0" aria-labelledby="sportDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-                        <div class="container-fluid">
+                        <div class="container h-100 d-flex justify-content-center align-items-center">
                             <div class="row my-4">
                                 <!-- Column 1: Shop By Sport -->
-                                <div class="col-md-4 mb-3 mb-md-0" style="padding-left: 220px;">
+                                <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Shop By Sport</p>
                                         <ul class="list-unstyled">
@@ -517,7 +528,7 @@
                                     </div>
                                 </div>
                                 <!-- Column 2: Discover More -->
-                                <div class="col-md-4 mb-3 mb-md-0" style="padding-left: 120px;">
+                                <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Discover More</p>
                                         <ul class="list-unstyled">
@@ -530,7 +541,7 @@
                                     </div>
                                 </div>
                                 <!-- Column 3: Image with Caption -->
-                                <div class="col-md-4" style="padding-right: 120px;">
+                                <div class="col-md-4">
                                     <div class="pt-2">
                                         <img src="img/sport1.avif" class="img-fluid shadow-1-strong rounded mb-2" alt="Featured Sport Image" style="width: 650px; display: block; margin-left: auto; margin-right: auto;" />
                                         <p class="text-center font-weight-bold" style="margin-bottom: 0;">Featured Sport Collection</p>
@@ -548,10 +559,10 @@
                         Home & Gifts
                     </a>
                     <div class="dropdown-menu w-100 mt-0" aria-labelledby="sportDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-                        <div class="container-fluid">
+                        <div class="container-fluid h-100 d-flex justify-content-center align-items-center">
                             <div class="row my-4">
                                 <!-- Column 1: Shop By Category -->
-                                <div class="col-md-4 mb-3 mb-md-0" style="padding-left: 250px;">
+                                <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Shop By Category</p>
                                         <ul class="list-unstyled">
@@ -564,7 +575,7 @@
                                     </div>
                                 </div>
                                 <!-- Column 2: Discover More -->
-                                <div class="col-md-4 mb-3 mb-md-0" style="padding-left: 150px;">
+                                <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Discover More</p>
                                         <ul class="list-unstyled">
@@ -577,7 +588,7 @@
                                     </div>
                                 </div>
                                 <!-- Column 3: Image with Caption -->
-                                <div class="col-md-4" style="padding-left: 150px;">
+                                <div class="col-md-4">
                                     <div class="pt-2">
                                         <img src="img/gift1.jpg" class="img-fluid shadow-1-strong rounded mb-2" alt="Featured Gift" style="width: 350px; display: block; margin-left: auto; margin-right: auto;" />
                                         <p class="text-center font-weight-bold" style="margin-bottom: 0;">Featured Gift</p>
