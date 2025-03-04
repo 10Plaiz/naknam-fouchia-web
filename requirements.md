@@ -5,7 +5,7 @@
 the website and mention tools you used. 
 3. Save the URL of your website in a notepad file. Send the notepad file in the week 
 10 link provided. 
-4. The responsive web site should have  a minimum of 8 web pages. **[CHECK IN PROGRESS]**
+4. The responsive web site should have  a minimum of 8 web pages. **[CHECK]**
 5. The project should have (but not limited) the features and their corresponding 
 
 ## attributes listed below: 
