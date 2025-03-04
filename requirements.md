@@ -11,7 +11,7 @@ the website and mention tools you used.
 ## attributes listed below: 
 A. BASIC Requirements:
     - Links, Lists, HTML layouts, etc. **[CHECK]**
-    - Image Map 
+    - Image Map **[CHECK]**
     - Tables 
     - Forms **Half Check**
     - Animated Images 
@@ -29,7 +29,7 @@ B. CSS Requirements
     - CSS Attr Selectors 
     - CSS Forms **Half Check**
     - CSS Rounded Corners **[CHECK]**
-    - CSS Border Images 
+    - CSS Border Images **[CHECK]**
     - CSS Multiple Backgrounds 
     - CSS Colors (rgba) 
     - CSS Gradients 
