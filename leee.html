@@ -724,24 +724,5 @@
             <p class="mb-0 font-zen-old-mincho">&copy; 2025 MR ZELDRICHE. All rights reserved.</p>
         </div>
     </footer>
-
-    <script>
-        function resizeMap() {
-            const image = document.querySelector('img[usemap]');
-            const map = document.querySelector('map');
-            const areas = map.querySelectorAll('area');
-            const originalWidth = 1200;
-    
-            const scale = image.clientWidth / originalWidth;
-    
-            areas.forEach(area => {
-                const coords = area.dataset.coords.split(',').map(coord => Math.round(coord * scale));
-                area.coords = coords.join(',');
-            });
-        }
-    
-        window.addEventListener('resize', resizeMap);
-        window.addEventListener('load', resizeMap);
-    </script>
 </body>
 </html>
