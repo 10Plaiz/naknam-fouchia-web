@@ -42,6 +42,14 @@ pointer-events: none;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.large-first-letter::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    float: left;
+    margin-right: 0.1em;
+    line-height: 1;
+}
+
 body {
     overflow-x: hidden;
 }
