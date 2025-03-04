@@ -14,7 +14,110 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sunflower:wght@300&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-size: 1em;
+        }
 
+        p {
+            text-align: justify;
+            margin: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            width: 100%;
+            padding: 0 15px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .col-md-5, .col-8 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 150px;
+            margin: 10px;
+        }
+
+        .card-title {
+            font-size: 1em;
+        }
+
+        .card-text {
+            font-size: 0.9em;
+        }
+
+        @media (min-width: 768px) {
+            .col-md-5 {
+                flex: 0 0 45%;
+                max-width: 45%;
+            }
+
+            .col-8 {
+                flex: 0 0 66.66667%;
+                max-width: 66.66667%;
+            }
+
+            .card {
+                max-width: 150px;
+            }
+
+            .card-title {
+                font-size: 0.9em;
+            }
+
+            .card-text {
+                font-size: 0.8em;
+            }
+        }
+
+        .card {
+            margin: 5px;
+            padding: 10px;
+        }
+
+        .card-title {
+            font-size: 1em;
+        }
+
+        .card-text {
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 767.98px) {
+            .desktop-cards {
+                display: none;
+            }
+
+            .mobile-carousel {
+                display: block;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .desktop-cards {
+                display: flex;
+            }
+
+            .mobile-carousel {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- First part: Brand name with left and right elements -->
@@ -77,13 +180,13 @@
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="latestjournal2.html" class="text-dark">
+                                        <a href="#" class="text-dark">
                                             <div class="row mb-4 border-bottom pb-2">
                                                 <div class="col-3">
                                                     <img src="img/latest2.png" class="img-fluid shadow-1-strong rounded" alt="Journal Item 2" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>Get Ahead Of The Curve With The Hottest Interior Trend</strong></p>
+                                                    <p class="mb-2"><strong>Get Ahead Of The Curve With This Year's Hottest Interior Trend</strong></p>
                                                 </div>
                                             </div>
                                         </a>
@@ -103,7 +206,7 @@
                                 <div class="col-md-4">
                                     <div class="pt-2">
                                         <img src="img/ytykm2.jpg" style="height: 350px; display: block; margin-left: auto; margin-right: auto;" class="img-fluid shadow-1-strong rounded mb-2" alt="Featured Image" />
-                                        <p class="text-center font-weight-bold" style="margin-bottom: 0;"><a href="latestjournal-main.html" style="text-decoration: none; color: black;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">You Think You Know Me</a></p>
+                                        <p class="text-center font-weight-bold" style="margin-bottom: 0;">You Think You Know Me</p>
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +232,7 @@
                                             <li><a href="what-to-wear-html/exclusives.html" class="text-dark">Exclusives</a></li>
                                             <li><a href="what-to-wear-html/trending.html" class="text-dark">Trending Now</a></li>
                                             <li><a href="what-to-wear-html/quietluxury.html" class="text-dark">Quiet Luxury</a></li>
-                                            <li><a href="what-to-wear-html/runthestreets.html" class="text-dark">Run The Streets</a></li>
+                                            <li><a href="#" class="text-dark">Run The Streets</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -179,33 +282,33 @@
                                 <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Luxury Streetwear</p>
-                                        <a href="designer-html/jacquemus.html" class="text-dark">
+                                        <a href="#" class="text-dark">
                                             <div class="row mb-4 border-bottom pb-2">
                                                 <div class="col-3">
-                                                    <img src="img/designer1.avif" class="img-fluid shadow-1-strong rounded" alt="JACQUEMUS" />
+                                                    <img src="img/whats-new/5.avif" class="img-fluid shadow-1-strong rounded" alt="Off-White" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>JACQUEMUS</strong></p>
+                                                    <p class="mb-2"><strong>Off-White</strong></p>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="designer-html/fog.html" class="text-dark">
+                                        <a href="#" class="text-dark">
                                             <div class="row mb-4 border-bottom pb-2">
                                                 <div class="col-3">
-                                                    <img src="img/designer2.avif" class="img-fluid shadow-1-strong rounded" alt="FEAR OF GOD" />
+                                                    <img src="img/whats-new/6.avif" class="img-fluid shadow-1-strong rounded" alt="Fear of God" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>FEAR OF GOD</strong></p>
+                                                    <p class="mb-2"><strong>Fear of God</strong></p>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="designer-html/lululemon.html" class="text-dark">
+                                        <a href="#" class="text-dark">
                                             <div class="row mb-4 border-bottom pb-2">
                                                 <div class="col-3">
-                                                    <img src="img/designer3.avif" class="img-fluid shadow-1-strong rounded" alt="LULULEMON" />
+                                                    <img src="img/whats-new/7.avif" class="img-fluid shadow-1-strong rounded" alt="Jacquemus" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>LULULEMON</strong></p>
+                                                    <p class="mb-2"><strong>Jacquemus</strong></p>
                                                 </div>
                                             </div>
                                         </a>
@@ -256,23 +359,23 @@
                                 <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Shirts</p>
-                                        <a href="top-html/marni.html" class="text-dark">
+                                        <a href="#" class="text-dark">
                                             <div class="row mb-4 border-bottom pb-2">
                                                 <div class="col-3">
-                                                    <img src="img/shirt1.avif" class="img-fluid shadow-1-strong rounded" alt="New Item 5" />
+                                                    <img src="img/whats-new/5.avif" class="img-fluid shadow-1-strong rounded" alt="New Item 5" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>MARNI</strong></p>
+                                                    <p class="mb-2"><strong>Nocturne</strong></p>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="top-html/saint.html" class="text-dark">
+                                        <a href="#" class="text-dark">
                                             <div class="row mb-4 border-bottom pb-2">
                                                 <div class="col-3">
-                                                    <img src="img/shirt2.avif" class="img-fluid shadow-1-strong rounded" alt="New Item 6" />
+                                                    <img src="img/whats-new/6.avif" class="img-fluid shadow-1-strong rounded" alt="New Item 6" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>SAINT MXXXXXX</strong></p>
+                                                    <p class="mb-2"><strong>Regalia</strong></p>
                                                 </div>
                                             </div>
                                         </a>
@@ -281,23 +384,23 @@
                                 <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="pt-2">
                                         <p class="text-uppercase font-weight-bold">Jackets</p>
-                                        <a href="top-html/mrp.html" class="text-dark">
+                                        <a href="#" class="text-dark">
                                             <div class="row mb-4 border-bottom pb-2">
                                                 <div class="col-3">
-                                                    <img src="img/jacket1.avif" class="img-fluid shadow-1-strong rounded" alt="New Item 7" />
+                                                    <img src="img/whats-new/7.avif" class="img-fluid shadow-1-strong rounded" alt="New Item 7" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>MR P.</strong></p>
+                                                    <p class="mb-2"><strong>Vermeer</strong></p>
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="top-html/celine.html" class="text-dark">
+                                        <a href="#" class="text-dark">
                                             <div class="row mb-4 border-bottom pb-2">
                                                 <div class="col-3">
-                                                    <img src="img/jacket2.avif" class="img-fluid shadow-1-strong rounded" alt="New Item 8" />
+                                                    <img src="img/whats-new/8.avif" class="img-fluid shadow-1-strong rounded" alt="New Item 8" />
                                                 </div>
                                                 <div class="col-9">
-                                                    <p class="mb-2"><strong>CELINE HOMME</strong></p>
+                                                    <p class="mb-2"><strong>Opaline</strong></p>
                                                 </div>
                                             </div>
                                         </a>
@@ -610,341 +713,198 @@
             </ul>
         </div>
     </nav>
-
-    <!-- Content -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-6 p-0 position-relative">
-                <img src="img/zeldrix-main.png" class="img-fluid" style="width: 100%; height: 500px; object-fit: cover;" alt="Responsive image">
-                <div class="position-absolute" style="bottom: 20px; left: 20px;">
-                    <h2 class="font-sunflower text-white">SEASONAL SHIFT</h2>
-                    <h6 class="font-zen-old-mincho text-white">Menswear classics and new trends to see winter out in style</h6>
-                    <a href="shopnow.html" class="btn btn-light btn-block" style="max-width: 300px;">Shop Now</a>
-                </div>
+     
+     
+    <!--Header for the Article-->
+    <section class="d-flex justify-content-center mt-4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h6 class="col-12 text-center" style="font-family: 'Lucida Handwriting', cursive;"><em>Lifestyle</em></h6>
+            <div class="col-12 text-center">
+                <h6 class="text-dark" style="font-family: 'Courier New';">4-MINUTE READ</h6>
             </div>
-            <div class="col-12 col-md-6 p-0">
-                <img src="img/luigi-main.png" class="img-fluid" style="width: 100%; height: 500px; object-fit: cover;" alt="Responsive image">
-            </div>
-        </div>
-    </div>
-
-    <!-- New Section: What's New Today -->
-    <div class="container my-5" style="margin-bottom: 2px !important;">
-        <div class="row align-items-center">
-            <div class="col-md-4 d-flex flex-column align-items-center" style="margin-bottom: 20px;">
-                <h3 class="font-sunflower">What's New Today</h3>
-                <h1 class="font-zen-old-mincho" style="font-size: 100px;">691</h1>
-                <h6 class="font-sunflower">Discover what just landed at MR ZELDRICHE</h6>
-            </div>
-            <div class="col-md-8 align-items-center">
-                <div id="newTodayCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="home-extra/valoura.html">
-                                        <img src="img/whats-new/1.avif" class="d-block w-100" alt="New Item 1">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Veloura</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="home-extra/aurum.html">
-                                        <img src="img/whats-new/2.avif" class="d-block w-100" alt="New Item 2">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Aurum</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="home-extra/celestine.html">
-                                        <img src="img/whats-new/3.avif" class="d-block w-100" alt="New Item 3">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Celestine</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="home-extra/elan.html">
-                                        <img src="img/whats-new/4.avif" class="d-block w-100" alt="New Item 4">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Élan</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="home-extra/nocturne.html">
-                                        <img src="img/whats-new/5.avif" class="d-block w-100" alt="New Item 5">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Nocturne</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="home-extra/regalia.html">
-                                        <img src="img/whats-new/6.avif" class="d-block w-100" alt="New Item 6">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Regalia</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="home-extra/vermeer.html">
-                                        <img src="img/whats-new/7.avif" class="d-block w-100" alt="New Item 7">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Vermeer</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="home-extra/opaline.html">
-                                        <img src="img/whats-new/8.avif" class="d-block w-100" alt="New Item 8">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Opaline</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="home-extra/marquise.html">
-                                        <img src="img/whats-new/9.avif" class="d-block w-100" alt="New Item 9">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Marquise</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="home-extra/eclipse.html">
-                                        <img src="img/whats-new/10.avif" class="d-block w-100" alt="New Item 10">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Éclipse</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="home-extra/lustre.html">
-                                        <img src="img/whats-new/11.avif" class="d-block w-100" alt="New Item 11">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Lustre</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="home-extra/sovereign.html">
-                                        <img src="img/whats-new/12.avif" class="d-block w-100" alt="New Item 12">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Sovereign</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#newTodayCarousel" role="button" data-slide="prev" style="width: 5%;">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#newTodayCarousel" role="button" data-slide="next" style="width: 5%;">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+            <div class="col-7 text-center">
+                <h4 class="text-dark" style="font-family: 'Times New Roman';">Get Ahead Of The Curve With This Year’s</h4>
+                <h4 class="text-dark" style="font-family: 'Times New Roman';">Hottest Interior Trend</h4>
+                <div class="col-12 text-center">
+                    <p class="text-dark mb-0" style="font-family: 'Garamond'; text-align: center;"><small>Words by Luigi Ariola</small></p>
+                    <p class="text-dark mb-0" style="font-family: 'Garamond'; text-align: center;"><small>03 March 2025</small></p>
                 </div>
             </div>
         </div>
     </div>
+    </section>
 
-    <!-- Divide it -->
-    <div style="height: 1px; background-color: #c7c7c7; width: 90%; margin-bottom: 30px;" class="mx-auto"></div>
+    <!--Main Body Info-->
+    <div class="d-flex justify-content-center">
+        <figure class="text-center">
+            <img src="img/article journal/interiorheader.jpg" alt="Main Image" style="width: 100%; height: 500px; object-fit: cover; object-position: center;">
+            <figcaption class="text-dark" style="font-family: 'Garamond'; width: 60%; margin: 0 auto; text-align: center;"><small>Photograph by Bryan O’Sullivan/James McDonald</small></figcaption>
+        </figure>
+    </div>
 
-    <!-- Zeldrix & Luigi Section -->
+    <!--Card Content-->
+<div class="container d-flex justify-content-center desktop-cards">
+    <div class="row justify-content-center">
+        <div class="card mt-5 mx-3 p-3 border-0">
+            <img class="card-img-top" src="img/article journal/interiorcard1.avif" alt="Card Image">
+            <div class="card-body">
+                <h5 class="card-title font-zen-old-mincho">TOM DIXON</h5>
+                <p class="card-text">Bell Steel LED Lamp<br><br>£791</p>
+            </div>
+        </div>
+        <div class="card mt-5 p-3 border-0">
+            <img class="card-img-top" src="img/article journal/interiorcard2.avif" alt="Card Image">
+            <div class="card-body">
+                <h5 class="card-title font-zen-old-mincho">THE CONRAN SHOP</h5>
+                <p class="card-text">Form Glass Vase<br><br>£63</p>
+            </div>
+        </div>
+        <div class="card mt-5 p-3 border-0">
+            <img class="card-img-top" src="img/article journal/interiorcard3.avif" alt="Card Image">
+            <div class="card-body">
+                <h5 class="card-title font-zen-old-mincho">L'OBJET</h5>
+                <p class="card-text">Terra 37cm Porcelain Charger Plate<br><br>£255</p>
+            </div>
+        </div>
+        <div class="card mt-5 p-3 border-0">
+            <img class="card-img-top" src="img/article journal/interiorcard3.jpg" alt="Card Image">
+            <div class="card-body">
+                <h5 class="card-title font-zen-old-mincho">LOEWE PERFUMES</h5>
+                <p class="card-text">Wasabi Small Scented Candle, 170g<br><br>£97</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Mobile Carousel -->
+<div id="cardCarousel" class="carousel slide mobile-carousel" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="card mt-5 mx-3 p-3 border-0">
+                <img class="card-img-top" src="img/article journal/interiorcard1.avif" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title font-zen-old-mincho">TOM DIXON</h5>
+                    <p class="card-text">Bell Steel LED Lamp<br><br>£791</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card mt-5 p-3 border-0">
+                <img class="card-img-top" src="img/article journal/interiorcard2.avif" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title font-zen-old-mincho">THE CONRAN SHOP</h5>
+                    <p class="card-text">Form Glass Vase<br><br>£63</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card mt-5 p-3 border-0">
+                <img class="card-img-top" src="img/article journal/interiorcard3.avif" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title font-zen-old-mincho">L'OBJET</h5>
+                    <p class="card-text">Terra 37cm Porcelain Charger Plate<br><br>£255</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card mt-5 p-3 border-0">
+                <img class="card-img-top" src="img/article journal/interiorcard3.jpg" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title font-zen-old-mincho">LOEWE PERFUMES</h5>
+                    <p class="card-text">Wasabi Small Scented Candle, 170g<br><br>£97</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#cardCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#cardCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="container d-flex justify-content-center">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <p style="font-family: 'Times New Roman'; font-size: 14px; text-align: justify; margin: 20px; padding-left: 80px; padding-right: 80px;">
+                <span style="font-size: 70px; float: left; line-height: 1;">C</span>urved lines in interior design have been going round in circles in recent years. So, how do you bring shapely forms into your space in a way that feels fresh, yet timeless, for 2025 – and why should you? Below, five designers and architects make the case for curves and share their best techniques.
+            </p>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="container d-flex justify-content-center">
+    <div class="row justify-content-center">
+        <figure class="text-left col-md-5">
+            <img src="img/article journal/interior1.jpg" alt="Main Body Pic">
+            <figcaption class="text-center text-dark" style="font-family: 'Garamond'; margin: 0 auto; text-align: center; padding-top: 10px;"><small>Photography courtesy of Buchanan Studio</small></figcaption>
+        </figure>
+        <figure class="text-center col-md-5">
+            <img src="img/article journal/interior2.gif" alt="Main Body Pic">
+        </figure>
+    </div>
+</div>
+<br>
+<div class="container d-flex justify-content-center">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <p style="font-family: 'Times New Roman'; font-size: 14px; text-align: justify; margin: 20px; padding-left: 80px; padding-right: 80px;">
+                “We love to use curves in unexpected ways and unexpected places,” Buchanan says. “For instance, taking materials like marble or stainless steel, which are hard and often used in formulaic and functional ways, and utilising them in a soft, curved form. We recently created our Studio ottoman, made entirely from stainless steel, which really champions the curves and softness of the design, despite it being made in this very commercial and solid material.”
+                </p>
+                <p style="font-family: 'Times New Roman'; font-size: 14px; text-align: justify; margin: 20px; padding-left: 80px; padding-right: 80px;">
+                When they err on the side of surprising, McLaren thinks that the joy of curves is adding a welcome sense of fun. “We use them as a means to surprise in an unexpected way, or as a foil within an otherwise rectilinear space,” he says. “Humour is often an underutilised and under-appreciated weapon in architecture and a curve – in an understated way – can elicit a smile.”
+                </p>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!-- Footer 1 -->
+<footer class="bg-light py-4">
     <div class="container">
         <div class="row">
-            <!-- Image Map Generated by http://www.image-map.net/ -->
-            <img src="img/image-map2.jpg" usemap="#image-map">
-    
-            <map name="image-map">
-                <area target="" alt="Luigi's Collection" title="Luigi's Collection" href="luigi.html" coords="96,261,297,648" shape="rect" data-coords="96,261,297,648">
-                <area target="" alt="Zeldrix's Collection" title="Zeldrix's Collection" href="zeldrix.html" coords="364,262,553,640" shape="rect" data-coords="364,262,553,640">
-                <area target="" alt="Leee's Collection" title="Leee's Collection" href="leee.html" coords="593,263,799,640" shape="rect" data-coords="593,263,799,640">
-                <area target="" alt="Carl's Collection" title="Carl's Collection" href="carl.html" coords="833,267,1048,636" shape="rect" data-coords="833,267,1048,636">
-            </map>
-        </div>
-    </div>
-
-    <!-- Divide it -->
-    <div style="height: 1px; background-color: #c7c7c7; width: 90%; margin-top: 35px;" class="mx-auto"></div>
-
-    <!-- New Section: Run The streets -->
-    <div class="container my-5">
-        <div class="row align-items-center">
-            <div class="col-md-4 d-flex flex-column align-items-center text-center">
-                <h1 class="font-sunflower" style="font-size: 60px;">Run The Streets</h1>
-                <h5 class="font-sunflower">Absolute cult classics.</h5>
+            <div class="col-md-4">
+                <h5 class="font-sunflower">Customer Care</h5>
+                <ul class="list-unstyled">
+                    <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/faq.html">FAQ</a></li>
+                    <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/contact.html">Contact Us</a></li>
+                    <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/terms.html">Terms and Conditions</a></li>
+                </ul>
             </div>
-            <div class="col-md-8 align-items-center">
-                <div id="runTheStreetsCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/cassiar.html">
-                                        <img src="img/run-the-streets/rts1.avif" class="d-block w-100" alt="Run The Streets 1">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Cassiar</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/orvelle.html">
-                                        <img src="img/run-the-streets/rts2.avif" class="d-block w-100" alt="Run The Streets 2">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Orvelle</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/zephora.html">    
-                                        <img src="img/run-the-streets/rts3.avif" class="d-block w-100" alt="Run The Streets 3">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Zephora</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/valienne.html">
-                                        <img src="img/run-the-streets/rts4.avif" class="d-block w-100" alt="Run The Streets 4">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Valienne</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/montereau.html">
-                                        <img src="img/run-the-streets/rts5.avif" class="d-block w-100" alt="Run The Streets 5">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Montereau</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/seraphine.html">
-                                        <img src="img/run-the-streets/rts6.avif" class="d-block w-100" alt="Run The Streets 6">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Seraphine</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/lucentia.html">
-                                        <img src="img/run-the-streets/rts7.avif" class="d-block w-100" alt="Run The Streets 7">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Lucentia</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/rosavelle.html">
-                                        <img src="img/run-the-streets/rts8.avif" class="d-block w-100" alt="Run The Streets 8">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Rosavelle</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/caliviere.html">
-                                        <img src="img/run-the-streets/rts9.avif" class="d-block w-100" alt="Run The Streets 9">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Calivière</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/amorien.html">
-                                        <img src="img/run-the-streets/rts10.avif" class="d-block w-100" alt="Run The Streets 10">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Amorien</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/vedaire.html">
-                                        <img src="img/run-the-streets/rts11.avif" class="d-block w-100" alt="Run The Streets 11">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Védaire</p>
-                                    </a>
-                                </div>
-                                <div class="col-3">
-                                    <a href="run-the-streets-html/solenne.html">
-                                        <img src="img/run-the-streets/rts12.avif" class="d-block w-100" alt="Run The Streets 12">
-                                        <p class="text-center font-zen-old-mincho" style="color:#000;">Solenne</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-md-4">
+                <h5 class="font-sunflower">More ZELDRICHE</h5>
+                <ul class="list-unstyled">
+                    <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/discover.html">Discover MR ZELDRICHE</a></li>
+                    <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/health.html">Health in Mind</a></li>
+                    <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/apps.html">Our Apps</a></li>
+                    <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="https://www.ynap.com/wp-content/uploads/2024/09/YNAP-Modern-Slavery-Statement-FY-2024.pdf" target="_blank">Modern Slavery Statement</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="font-sunflower">Newsletter Signup</h5>
+                <form>
+                    <div class="form-group">
+                        <label for="newsletter-email" class="font-zen-old-mincho">Email address</label>
+                        <input type="email" class="form-control font-zen-old-mincho" id="newsletter-email" placeholder="Enter your email">
                     </div>
-                    <a class="carousel-control-prev" href="#runTheStreetsCarousel" role="button" data-slide="prev" style="width: 5%;">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#runTheStreetsCarousel" role="button" data-slide="next" style="width: 5%;">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+                    <button type="submit" class="btn btn-info font-zen-old-mincho">Subscribe</button>
+                </form>
             </div>
         </div>
     </div>
-
-    <!-- Divide it -->
-    <div style="height: 1px; background-color: #c7c7c7; width: 90%; margin-bottom: 30px" class="mx-auto"></div>
-
-    <!-- News / Journal Part -->
-    <div class="container" style="margin-bottom: 35px;">
-        <div class="row">
-            <img src="img/ytykm.png" class="img-fluid" alt="You Think You Know Me">
-            <div class="col-xl-7">
-                <h6 class="font-sunflower" style="margin-top: 20px; margin-bottom: 0;"><b>The Journals</b></h6>
-                <h2 class="font-zen-old-mincho" style="margin-bottom: 0;">Justine Leee Isn't Who You Think He Is</h2>
-            </div>
-            <div class="col-xl-5 d-flex flex-column justify-content-center align-items-lefttext-left">
-                <p class="font-zen-old-mincho" style="margin-bottom: 0; margin-top: 20px;">He isn't just an internet persona. He's a mystery wrapped in speculation, hiding something far bigger than anyone realizes.</p>
-                <p class="font-zen-old-mincho" style="margin-bottom: 0;"><a href="latestjournal-main.html" style="font-size: small; text-decoration: none; color: #000;"><u>Read more</u></a></p>
-            </div>
-        </div>
+</footer>
+<!-- Footer 2 -->
+<footer class="bg-light py-2">
+    <div class="container text-center">
+        <p class="mb-0 font-zen-old-mincho">&copy; 2025 MR ZELDRICHE. All rights reserved.</p>
     </div>
-
-    <!-- Divide it -->
-    <div style="height: 1px; background-color: #c7c7c7; width: 90%; margin-bottom: 30px" class="mx-auto"></div>
-
-    <!-- Footer 1 -->
-    <footer class="bg-light py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5 class="font-sunflower">Customer Care</h5>
-                    <ul class="list-unstyled">
-                        <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/faq.html">FAQ</a></li>
-                        <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/contact.html">Contact Us</a></li>
-                        <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/terms.html">Terms and Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5 class="font-sunflower">More ZELDRICHE</h5>
-                    <ul class="list-unstyled">
-                        <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/discover.html">Discover MR ZELDRICHE</a></li>
-                        <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/health.html">Health in Mind</a></li>
-                        <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="home-extra/apps.html">Our Apps</a></li>
-                        <li><a class="font-zen-old-mincho" style="list-style-type: underline; color: #000;" href="https://www.ynap.com/wp-content/uploads/2024/09/YNAP-Modern-Slavery-Statement-FY-2024.pdf" target="_blank">Modern Slavery Statement</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5 class="font-sunflower">Newsletter Signup</h5>
-                    <form>
-                        <div class="form-group">
-                            <label for="newsletter-email" class="font-zen-old-mincho">Email address</label>
-                            <input type="email" class="form-control font-zen-old-mincho" id="newsletter-email" placeholder="Enter your email">
-                        </div>
-                        <button type="submit" class="btn btn-info font-zen-old-mincho">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer 2 -->
-    <footer class="bg-light py-2">
-        <div class="container text-center">
-            <p class="mb-0 font-zen-old-mincho">&copy; 2025 MR ZELDRICHE. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script>
-        function resizeMap() {
-            const image = document.querySelector('img[usemap]');
-            const map = document.querySelector('map');
-            const areas = map.querySelectorAll('area');
-            const originalWidth = 1200;
-    
-            const scale = image.clientWidth / originalWidth;
-    
-            areas.forEach(area => {
-                const coords = area.dataset.coords.split(',').map(coord => Math.round(coord * scale));
-                area.coords = coords.join(',');
-            });
-        }
-    
-        window.addEventListener('resize', resizeMap);
-        window.addEventListener('load', resizeMap);
-    </script>
+</footer>
 </body>
 </html>
